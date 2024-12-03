@@ -1,6 +1,5 @@
 import re
 
-# Read text file levels.txt from DAY 3 folder
 file = open("DAY 3/mul.txt", "r").read()
 
 mul_numbers = re.findall(r"mul\((\d+),(\d+)\)", file)
